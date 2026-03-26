@@ -1,0 +1,32 @@
+# 核心依赖
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.2.0
+
+# 向量数据库
+chromadb>=0.5.0
+
+# PDF处理
+pymupdf>=1.24.0
+pypdf>=4.0.0
+
+# BM25检索
+rank_bm25>=0.2.2
+
+# Embedding & LLM（阿里云百炼兼容OpenAI接口）
+openai>=1.50.0
+
+# 重排序（可选Cohere，或用本地模型）
+cohere>=5.0.0
+
+# Web界面
+gradio>=4.40.0
+
+# 工具库
+python-dotenv>=1.0.0
+numpy>=1.26.0
+tiktoken>=0.7.0
+pydantic>=2.0.0
+loguru>=0.7.0
+tqdm>=4.66.0
+jieba>=0.42.1
